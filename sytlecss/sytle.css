@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Workbench&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    box-sizing: border-box;
+    background-color: black;
+    color: #B0B0B0;
+
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 10%;
+
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 5rem;
+}
+
+
+.cabecalho__menu__link {
+    font-family: 'Workbench', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: yellow;
+    text-decoration: none;
+}
+
+
+
+.apresentacao {
+    padding: 8% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%, 5%;
+}
+
+.apresentacao__ti {
+    font-size: 3.5rem;
+    font-family: 'Workbench', sans-serif;
+    gap: 25px;
+}
+
+.titulodes {
+    color: goldenrod
+}
+
+.apresentacao__p {
+    font-size: 1.875rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    gap: 25px;
+}
+
+.apresentacao__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.apresentacao__links__subtitulo {
+    font-family: 'Workbench', sans-serif;
+
+}
+
+.apresentacao__links__link {
+
+    border: orange 0.125rem solid;
+    width: 378px;
+    gap: 2;
+    text-align: center;
+    border-radius: 8%;
+    font-size: 1.875rem;
+    padding: 0.9375rem;
+    text-decoration: none;
+    color: #B0B0B0(117, 117, 8);
+
+
+}
+
+.apresentacao__links__link:hover {
+    background-color: rgb(247, 227, 190);
+}
+
+.apresentacao__img {
+    width: 50%;
+}
+
+.rodape {
+    color: black;
+    padding: 1.75rem;
+    background-color: yellow;
+    text-align: center;
+    font-family: 'Workbench', sans-serif;
+    font-size: 1.5rem;
+}
+
+@media(max-width:1200px) {
+    .cabecalho {
+        padding: 10%
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
+
+}
